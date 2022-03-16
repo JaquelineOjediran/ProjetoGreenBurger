@@ -1,0 +1,128 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Viga&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    color: white;
+    min-height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3D844A;
+}
+
+.header .container-logo img{
+    padding: 10px;
+    width: 9rem;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.nav .nav-menu{
+    padding-right: 100px;
+    font-weight: 500;
+}
+
+.nav .nav-menu li{
+    color: white;
+    font-size: 30px;
+    display: inline;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+
+.nav .nav-menu li:hover{
+    color: #287746;
+}
+
+
+main{
+    width: 980px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.box .ilustracao img{
+    margin-left: 240px;
+    width: 500px;
+    height: 500px;
+}
+
+.box h1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.box span{   
+    text-decoration: underline;
+}
+
+.box p{
+    margin: 40px 0;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #49b673;
+    text-align: center;  
+}
+
+footer .social-midia {
+    display: inline-block;
+}
+
+.social-midia img{
+    padding: 25px 0;
+    margin: 0 40px;
+    width: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-midia img:hover{
+    opacity: 50%;
+}
+
+footer .social-midia:first-child img{
+    margin-left: 0;
+}
+
+.box2 .social-midia p{
+    display: inline;
+    font-size: 20px;
+    float: left;
+    padding: 20px 80px 15px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box2 .social-midia p:hover{
+    color: #287746;
+}
+
+.box2 .social-midia a{
+    color: white;
+}
